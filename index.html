@@ -3,6 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Óculos de sol com os melhores preços e marcas."
+    />
+    <meta name="keywords" content="óculos, shades, moda, rayban, prada" />
+    <meta name="author" content="Seu Nome" />
+    <meta property="og:title" content="S H A D E S" />
+    <meta
+      property="og:description"
+      content="Os melhores preços em óculos de sol."
+    />
+    <meta property="og:image" content="https://seudominio.com/img/cartao.png" />
+    <meta property="og:url" content="https://seudominio.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+
     <link rel="stylesheet" href="css/estilo.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -16,12 +31,12 @@
   </head>
   <body>
     <header id="top-header">
-      <h1 id="logotype">S H A D E S</h1>
       <nav>
-        <h3 id="logo">SH</h3>
         <ul>
           <li><a href="#sessao1">Sobre nós</a></li>
           <li><a href="#sessao2">Destaques</a></li>
+          <li><a href="#sessao3">Formulários</a></li>
+          <li><a href="#sessao4">Painel de Fotos</a></li>
         </ul>
       </nav>
     </header>
@@ -59,7 +74,7 @@
         <h2>Produtos em destaque</h2>
         <div id="cards-container">
           <div id="product-container">
-            <img src="img/product-1.avif" alt="Imagem 2" />
+            <img src="img/product-1.webp" alt="Imagem 2" />
             <div id="card-content">
               <h5>PRADA</h5>
               <p>2 cores.</p>
@@ -69,7 +84,7 @@
           </div>
 
           <div id="product-container">
-            <img src="img/product-2.avif" alt="Imagem 2" />
+            <img src="img/product-2.webp" alt="Imagem 2" />
             <div id="card-content">
               <h5>RAY-BAN</h5>
               <p>2 cores.</p>
@@ -79,7 +94,7 @@
           </div>
 
           <div id="product-container">
-            <img src="img/product-3.avif" alt="Imagem 2" />
+            <img src="img/product-3.webp" alt="Imagem 2" />
             <div id="card-content">
               <h5>OAKLEY</h5>
               <p>2 cores.</p>
@@ -89,13 +104,125 @@
           </div>
 
           <div id="product-container">
-            <img src="img/product-4.avif" alt="Imagem 2" />
+            <img src="img/product-4.webp" alt="Imagem 2" />
             <div id="card-content">
               <h5>VERSACE</h5>
               <p>2 cores.</p>
               <h3>R$ 2.000,00</h3>
               <button>Detalhes</button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sessao3">
+        <h2>Entre em contato</h2>
+        <div class="forms-container">
+          <form>
+            <fieldset>
+              <legend>Cadastro</legend>
+              <div class="form-group">
+                <label>Nome:</label>
+                <input type="text" required />
+              </div>
+
+              <div class="form-group">
+                <label>Email:</label>
+                <input type="email" required />
+              </div>
+
+              <div class="form-group">
+                <label>Telefone:</label>
+                <input type="tel" />
+              </div>
+
+              <div class="form-group">
+                <label>Senha:</label>
+                <input type="password" />
+              </div>
+
+              <div class="form-group">
+                <label>Data de Nascimento:</label>
+                <input type="date" />
+              </div>
+            </fieldset>
+          </form>
+          <form>
+            <fieldset>
+              <legend>Feedback</legend>
+              <div class="form-group">
+                <label>Nome:</label>
+                <input type="text" />
+              </div>
+              <div class="form-group">
+                <label> Email:</label>
+                <input type="email" />
+              </div>
+              <div class="form-group">
+                <label>Motivo do contato:</label>
+                <select>
+                  <option>Dúvida</option>
+                  <option>Reclamação</option>
+                  <option>Elogio</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Data:</label>
+                <input type="date" />
+              </div>
+              <div class="form-group">
+                <label>Mensagem: </label>
+                <textarea></textarea>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <section id="sessao4">
+        <h2>Nosso Estilo</h2>
+        <div class="photo-gallery">
+          <div class="column">
+            <img
+              src="img/product-1.webp"
+              alt="Foto 1"
+              class="big-img"
+              loading="lazy"
+            />
+            <img
+              src="img/product-2.webp"
+              alt="Foto 2"
+              class="small-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="img/product-3.webp"
+              alt="Foto 3"
+              class="small-img"
+              loading="lazy"
+            />
+            <img
+              src="img/product-4.webp"
+              alt="Foto 4"
+              class="big-img"
+              loading="lazy"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="img/product-5.webp"
+              alt="Foto 5"
+              class="big-img"
+              loading="lazy"
+            />
+            <img
+              src="img/product-6.webp"
+              alt="Foto 6"
+              class="small-img"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
